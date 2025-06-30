@@ -7,8 +7,7 @@ const taskSchema = new mongoose.Schema({
     dueDate: Date,
     subtasks: [{
         title: String,
-        status: String,
-        dueDate: Date
+        status: String
     }]
 }, { timestamps: true })
 
